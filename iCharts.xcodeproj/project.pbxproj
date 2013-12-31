@@ -114,6 +114,7 @@
 		22D05A881872B26D0015D92B /* iCharts */ = {
 			isa = PBXGroup;
 			children = (
+				22D05ABA1872BB510015D92B /* iChartsFrameWork */,
 				22D05A911872B26D0015D92B /* AppDelegate.h */,
 				22D05A921872B26D0015D92B /* AppDelegate.m */,
 				22D05A941872B26D0015D92B /* Main_iPhone.storyboard */,
@@ -153,6 +154,37 @@
 				22D05AAD1872B26D0015D92B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22D05ABA1872BB510015D92B /* iChartsFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				22D05ABE1872BBFD0015D92B /* Controller */,
+				22D05ABD1872BBEF0015D92B /* view */,
+				22D05ABB1872BB970015D92B /* Model */,
+			);
+			path = iChartsFrameWork;
+			sourceTree = "<group>";
+		};
+		22D05ABB1872BB970015D92B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22D05ABD1872BBEF0015D92B /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		22D05ABE1872BBFD0015D92B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,6 +427,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iCharts/iCharts-Prefix.pch";
 				INFOPLIST_FILE = "iCharts/iCharts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -408,6 +441,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iCharts/iCharts-Prefix.pch";
 				INFOPLIST_FILE = "iCharts/iCharts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
