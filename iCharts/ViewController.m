@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TestView.h"
 
 @interface ViewController ()
 
@@ -19,7 +20,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    //Testing by Hemanth
+    TestView *testView = [[TestView alloc] initWithFrame:self.view.frame];
+    [self.view addSubview:testView];
 }
 
 - (void)didReceiveMemoryWarning
