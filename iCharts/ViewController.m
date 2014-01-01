@@ -20,8 +20,19 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    TestView *testView = [[TestView alloc] initWithFrame:self.view.frame];
+    
+    [self addTestView];
+    
+}
+
+-(void)addTestView
+{
+    
+    CGRect rect = self.view.frame;
+    rect.origin.y = 60;
+    TestView *testView = [[TestView alloc] initWithFrame:rect];
     [self.view addSubview:testView];
+    
 }
 
 - (void)didReceiveMemoryWarning

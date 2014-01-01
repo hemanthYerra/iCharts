@@ -23,6 +23,13 @@
 		22D05AAF1872B26D0015D92B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22D05AAD1872B26D0015D92B /* InfoPlist.strings */; };
 		22D05AB11872B26D0015D92B /* iChartsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D05AB01872B26D0015D92B /* iChartsTests.m */; };
 		22D05AC11872C4490015D92B /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D05AC01872C4490015D92B /* TestView.m */; };
+		22D05AC41873EFA10015D92B /* ICData.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D05AC31873EFA10015D92B /* ICData.m */; };
+		22D05AC7187420400015D92B /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D05AC6187420400015D92B /* Utilities.m */; };
+		22D05AC9187421F70015D92B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D05AC8187421F70015D92B /* QuartzCore.framework */; };
+		22D05ACC187432900015D92B /* submit-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D05ACB187432900015D92B /* submit-button.png */; };
+		22D05AD0187435700015D92B /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D05ACF187435700015D92B /* CustomButton.m */; };
+		22D05AD7187436990015D92B /* UIStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D05AD6187436990015D92B /* UIStyle.m */; };
+		22D05ADB18743F6F0015D92B /* iLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D05ADA18743F6F0015D92B /* iLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +65,19 @@
 		22D05AB01872B26D0015D92B /* iChartsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iChartsTests.m; sourceTree = "<group>"; };
 		22D05ABF1872C4490015D92B /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		22D05AC01872C4490015D92B /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		22D05AC21873EFA10015D92B /* ICData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICData.h; sourceTree = "<group>"; };
+		22D05AC31873EFA10015D92B /* ICData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICData.m; sourceTree = "<group>"; };
+		22D05AC5187420400015D92B /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		22D05AC6187420400015D92B /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		22D05AC8187421F70015D92B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		22D05ACB187432900015D92B /* submit-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "submit-button.png"; sourceTree = "<group>"; };
+		22D05ACE187435700015D92B /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		22D05ACF187435700015D92B /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		22D05AD1187435D20015D92B /* UIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIConstants.h; path = iCharts/iChartsFrameWork/Model/UIConstants.h; sourceTree = SOURCE_ROOT; };
+		22D05AD5187436990015D92B /* UIStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIStyle.h; sourceTree = "<group>"; };
+		22D05AD6187436990015D92B /* UIStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIStyle.m; sourceTree = "<group>"; };
+		22D05AD918743F6F0015D92B /* iLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iLayer.h; sourceTree = "<group>"; };
+		22D05ADA18743F6F0015D92B /* iLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D05AC9187421F70015D92B /* QuartzCore.framework in Frameworks */,
 				22D05A851872B26D0015D92B /* CoreGraphics.framework in Frameworks */,
 				22D05A871872B26D0015D92B /* UIKit.framework in Frameworks */,
 				22D05A831872B26D0015D92B /* Foundation.framework in Frameworks */,
@@ -106,6 +127,7 @@
 		22D05A811872B26D0015D92B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				22D05AC8187421F70015D92B /* QuartzCore.framework */,
 				22D05A821872B26D0015D92B /* Foundation.framework */,
 				22D05A841872B26D0015D92B /* CoreGraphics.framework */,
 				22D05A861872B26D0015D92B /* UIKit.framework */,
@@ -164,6 +186,7 @@
 		22D05ABA1872BB510015D92B /* iChartsFrameWork */ = {
 			isa = PBXGroup;
 			children = (
+				22D05ACA187432810015D92B /* Assets */,
 				22D05ABE1872BBFD0015D92B /* Controller */,
 				22D05ABD1872BBEF0015D92B /* view */,
 				22D05ABB1872BB970015D92B /* Model */,
@@ -174,6 +197,11 @@
 		22D05ABB1872BB970015D92B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				22D05AD4187436860015D92B /* UI */,
+				22D05AC21873EFA10015D92B /* ICData.h */,
+				22D05AC31873EFA10015D92B /* ICData.m */,
+				22D05AC5187420400015D92B /* Utilities.h */,
+				22D05AC6187420400015D92B /* Utilities.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -181,6 +209,8 @@
 		22D05ABD1872BBEF0015D92B /* view */ = {
 			isa = PBXGroup;
 			children = (
+				22D05AD818743F4E0015D92B /* Renderer */,
+				22D05ACD187435620015D92B /* Custom */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -190,6 +220,42 @@
 			children = (
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		22D05ACA187432810015D92B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				22D05ACB187432900015D92B /* submit-button.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		22D05ACD187435620015D92B /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				22D05ACE187435700015D92B /* CustomButton.h */,
+				22D05ACF187435700015D92B /* CustomButton.m */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		22D05AD4187436860015D92B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				22D05AD1187435D20015D92B /* UIConstants.h */,
+				22D05AD5187436990015D92B /* UIStyle.h */,
+				22D05AD6187436990015D92B /* UIStyle.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		22D05AD818743F4E0015D92B /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				22D05AD918743F6F0015D92B /* iLayer.h */,
+				22D05ADA18743F6F0015D92B /* iLayer.m */,
+			);
+			path = Renderer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +336,7 @@
 			files = (
 				22D05A991872B26D0015D92B /* Main_iPad.storyboard in Resources */,
 				22D05A9E1872B26D0015D92B /* Images.xcassets in Resources */,
+				22D05ACC187432900015D92B /* submit-button.png in Resources */,
 				22D05A961872B26D0015D92B /* Main_iPhone.storyboard in Resources */,
 				22D05A8D1872B26D0015D92B /* InfoPlist.strings in Resources */,
 			);
@@ -290,9 +357,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D05ADB18743F6F0015D92B /* iLayer.m in Sources */,
+				22D05AC7187420400015D92B /* Utilities.m in Sources */,
 				22D05AC11872C4490015D92B /* TestView.m in Sources */,
+				22D05AD7187436990015D92B /* UIStyle.m in Sources */,
 				22D05A9C1872B26D0015D92B /* ViewController.m in Sources */,
+				22D05AD0187435700015D92B /* CustomButton.m in Sources */,
 				22D05A931872B26D0015D92B /* AppDelegate.m in Sources */,
+				22D05AC41873EFA10015D92B /* ICData.m in Sources */,
 				22D05A8F1872B26D0015D92B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TestView.h"
+
 
 @interface ViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet TestView *mainView;
+
+
 
 @end
